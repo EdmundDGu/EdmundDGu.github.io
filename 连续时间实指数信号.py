@@ -15,3 +15,4 @@ plt.title(u'exp(t)')
 ft1 = np.exp(t)
 plt.plot(t,ft1)
 plt.show()
+
