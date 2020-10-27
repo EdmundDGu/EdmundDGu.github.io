@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-t = np.linspace(-1.0,1.0,1000)  #通过linspace函数指定t的取值范围
+t = np.linspace(-1.0,1.0,1000)         #通过linspace函数指定t的取值范围
 plt.ylim(0,3)                          #定义纵轴取值范围
-plt.subplot(111)     #显示的位置  
-ft = np.exp(-t)              #调用exp函数计算指数信号
-plt.plot(t,ft)                #绘图
+plt.subplot(111)                       #显示的位置  
+ft = np.exp(-t)                        #调用exp函数计算指数信号
+plt.plot(t,ft)                         #绘图
 plt.subplot(111)
 ft1 = np.exp(t)
 plt.plot(t,ft1)
