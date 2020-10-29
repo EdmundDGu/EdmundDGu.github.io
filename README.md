@@ -1,2 +1,2 @@
-# EdmundDGu.github.io
-# ee
+# 信号与系统实践环节
+# 电信193 顾一健
